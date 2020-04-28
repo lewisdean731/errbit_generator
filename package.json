@@ -1,0 +1,28 @@
+{
+  "name": "errbit_generator",
+  "version": "0.1.0",
+  "description": "Generates a fake errbit error.",
+  "main": "dist/app.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest",
+    "prettier:base": "prettier 'src/**' '*.md' '*.js' tsconfig.json grafana/**/*.json",
+    "prettier:check": "yarn run prettier:base --list-different",
+    "prettier:write": "yarn run prettier:base --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lewisdean731/errbit_generator.git"
+  },
+  "author": "Lewis Dean",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "express": "^4.17.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@airbrake/node": "^1.1.0"
+  }
+}
