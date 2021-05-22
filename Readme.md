@@ -5,8 +5,8 @@ Generates a fake errbit error.
 ## Usage
 
 ```bash
-yarn install
-yarn run compile
+npm install
+npm run compile
 ```
 
 ```bash
